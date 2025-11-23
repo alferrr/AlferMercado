@@ -364,7 +364,6 @@ body {
   position: relative;
   min-height: 100dvh;
   background: url(../assets/images/hero.jpg) no-repeat center/cover;
-  background-attachment: fixed;
 
   display: flex;
   flex-direction: column;
@@ -596,8 +595,10 @@ footer::before {
   .button:hover {
     scale: 1;
   }
+}
 
+@media screen and (width > 1440px) {
   .contact {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
