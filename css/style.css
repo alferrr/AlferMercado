@@ -73,6 +73,7 @@ body {
       display: flex;
       align-items: center;
       gap: 3em;
+
       ul {
         display: flex;
         justify-content: center;
@@ -176,6 +177,8 @@ body {
     bottom: 0;
     height: 50vh;
     width: 100%;
+
+    z-index: 0;
 
     background: linear-gradient(to top, black, transparent);
   }
@@ -453,7 +456,7 @@ body {
   position: relative;
   font-family: var(--body);
   transition: 0.3s ease;
-  z-index: 2;
+  z-index: 10;
 }
 .button::after {
   content: "";
@@ -570,6 +573,12 @@ footer::before {
   z-index: 9999;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   transform: translate(-50%, -50%);
+}
+
+/* last minute tweaks */
+
+.bot {
+  z-index: 999;
 }
 
 /* animations */
