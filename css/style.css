@@ -160,6 +160,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 2em;
+    position: relative;
+    z-index: 100;
 
     a {
       text-decoration: none;
@@ -168,6 +170,7 @@ body {
 
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
+      position: relative;
       z-index: 2;
     }
   }
@@ -576,10 +579,6 @@ footer::before {
 }
 
 /* last minute tweaks */
-
-.bot {
-  z-index: 999;
-}
 
 /* animations */
 
