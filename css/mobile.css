@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    margin: 0 auto;
 
     nav {
       ul {
