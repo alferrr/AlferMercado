@@ -14,10 +14,8 @@
         justify-content: center;
         margin: 0 auto;
       }
-      li {
-        .proj {
-          display: none;
-        }
+      .proj {
+        display: none;
       }
     }
   }

@@ -70,6 +70,9 @@ body {
     }
 
     nav {
+      display: flex;
+      align-items: center;
+      gap: 3em;
       ul {
         display: flex;
         justify-content: center;
@@ -83,18 +86,22 @@ body {
           text-decoration: none;
           color: rgba(224, 224, 224, 0.74);
           font-family: var(--body);
-          font-size: 15pxs;
+          font-size: 15px;
         }
 
         a:hover {
           color: white;
         }
+      }
 
-        .proj {
-          padding: 10px 30px;
-          border-radius: 50px;
-          border: 1px solid rgba(255, 255, 255, 0.167);
-        }
+      .proj {
+        text-decoration: none;
+        color: rgba(224, 224, 224, 0.74);
+        font-family: var(--body);
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.167);
       }
     }
   }
