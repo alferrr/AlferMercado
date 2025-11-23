@@ -1,0 +1,31 @@
+.hero {
+  main {
+    h1 {
+      font-size: 70px;
+    }
+    p {
+      width: 60%;
+    }
+  }
+}
+
+.about {
+  main {
+    .photo {
+      width: 100%;
+      height: 50vh;
+    }
+
+    .text {
+      .carousel,
+      table,
+      .line {
+        width: 200%;
+      }
+    }
+  }
+}
+
+.contact {
+  padding: 0 10px;
+}
