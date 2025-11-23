@@ -592,7 +592,12 @@ footer::before {
       }
     }
   }
+
   .button:hover {
     scale: 1;
+  }
+
+  .contact {
+    background-attachment: scroll;
   }
 }
