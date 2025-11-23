@@ -575,7 +575,7 @@ footer::before {
   }
 }
 
-@media screen and(width < 1000px) {
+@media (width < 1000px) {
   .cursor {
     display: none;
   }
@@ -597,7 +597,7 @@ footer::before {
   }
 }
 
-@media screen and (width > 1440px) {
+@media (width > 1399px) {
   .contact {
     background-attachment: fixed;
   }
