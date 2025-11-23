@@ -2,6 +2,7 @@
   header {
     flex-direction: column;
     align-items: center;
+    height: auto;
 
     nav {
       ul {
@@ -13,9 +14,10 @@
         justify-content: center;
         margin: 0 auto;
       }
-
-      .proj {
-        display: none;
+      li {
+        .proj {
+          display: none;
+        }
       }
     }
   }
