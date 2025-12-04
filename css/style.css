@@ -433,12 +433,17 @@ body {
       font-size: 32px;
       text-decoration: none;
       color: gray;
+      transition: 0.3s ease;
     }
     img {
       height: 32px;
-      fill: gray;
+      fill: blue;
+      transition: all 0.3s ease;
     }
-
+    img:hover,
+    #mail:hover {
+      filter: drop-shadow(0 0 10px blue);
+    }
     .line {
       height: 70px;
       width: 1px;
