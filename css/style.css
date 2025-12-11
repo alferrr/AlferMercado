@@ -251,11 +251,12 @@ body {
         }
 
         .group {
-          flex: 0 0 5em;
+          flex: 0 0 auto;
           padding-right: 2em;
           display: flex;
           gap: 2em;
-          animation: spin 20s infinite linear;
+          animation: spin 25s infinite linear;
+          width: max-content;
 
           .icon {
             display: flex;
@@ -589,10 +590,10 @@ footer::before {
 
 @keyframes spin {
   from {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
 }
 
