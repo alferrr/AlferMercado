@@ -229,7 +229,10 @@ body {
       .carousel {
         position: relative;
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
+
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
 
         display: flex;
 
@@ -257,6 +260,7 @@ body {
           gap: 2em;
           animation: spin 25s infinite linear;
           width: max-content;
+          white-space: nowrap;
 
           .icon {
             display: flex;
@@ -266,9 +270,11 @@ body {
 
             font-family: "Plus Jakarta Sans";
             font-size: 14px;
+            flex-shrink: 0;
 
             img {
               height: 50px;
+              flex-shrink: 0;
             }
           }
         }
@@ -622,5 +628,48 @@ footer::before {
 @media (width > 1399px) {
   .contact {
     background-attachment: fixed;
+  }
+}
+
+/* media for carousel */
+
+@media (width < 1000px) {
+  .about main .text .carousel {
+    .left,
+    .right {
+      width: 15%;
+    }
+
+    .group {
+      gap: 1.5em;
+      padding-right: 1.5em;
+      animation: spin 20s infinite linear;
+      .icon {
+        gap: 0.8em;
+        font-size: 12px;
+
+        img {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (width < 600px) {
+  .about main .text .carousel {
+    .group {
+      gap: 1em;
+      padding-right: 1em;
+
+      .icon {
+        gap: 0.5em;
+        font-size: 11px;
+
+        img {
+          height: 32px; /* Even smaller icons */
+        }
+      }
+    }
   }
 }
