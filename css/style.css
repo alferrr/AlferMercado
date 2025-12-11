@@ -258,7 +258,7 @@ body {
           padding-right: 2em;
           display: flex;
           gap: 2em;
-          animation: spin 25s infinite linear;
+          animation: spin 27s infinite linear;
           width: max-content;
           white-space: nowrap;
 
@@ -643,7 +643,6 @@ footer::before {
     .group {
       gap: 1.5em;
       padding-right: 1.5em;
-      animation: spin 25s infinite linear;
       .icon {
         gap: 0.8em;
         font-size: 12px;
