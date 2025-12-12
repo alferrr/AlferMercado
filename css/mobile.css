@@ -83,7 +83,12 @@
 
     .when {
       font-size: 1.5rem;
+      display: none;
     }
+  }
+
+  .hci {
+    display: none;
   }
 }
 

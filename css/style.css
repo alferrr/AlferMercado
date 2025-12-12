@@ -631,7 +631,7 @@ footer::before {
   }
 }
 
-/* media for carousel */
+/* media para carousel */
 
 @media (width < 1000px) {
   .about main .text .carousel {
@@ -666,7 +666,7 @@ footer::before {
         font-size: 11px;
 
         img {
-          height: 32px; /* Even smaller icons */
+          height: 32px;
         }
       }
     }
@@ -677,7 +677,7 @@ footer::before {
   .about main .text .carousel {
     .group {
       animation: spin 20s infinite linear;
-      will-change: transform; /* Add this for smoother mobile animation */
+      will-change: transform;
     }
   }
 }
@@ -685,7 +685,7 @@ footer::before {
 @media (width < 600px) {
   .about main .text .carousel {
     .group {
-      animation: spin 18s infinite linear; /* Slightly faster on small screens */
+      animation: spin 18s infinite linear;
       will-change: transform;
     }
   }
