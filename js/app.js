@@ -28,7 +28,7 @@ addEventListener("DOMContentLoaded", () => {
     AOS.init({
       duration: 1000,
       delay: 100,
-      once: false,
+      once: true,
       offset: 100,
     });
 
