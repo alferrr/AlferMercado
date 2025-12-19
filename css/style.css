@@ -103,6 +103,12 @@ body {
         padding: 10px 30px;
         border-radius: 50px;
         border: 1px solid rgba(255, 255, 255, 0.167);
+        transition: 0.3s ease;
+
+        &:hover {
+          background: rgba(224, 224, 224, 0.74);
+          color: black;
+        }
       }
     }
   }

@@ -1,4 +1,5 @@
 addEventListener("DOMContentLoaded", () => {
+
   const cursor = document.querySelector(".cursor");
   let mouseX = 0;
   let mouseY = 0;
@@ -18,6 +19,7 @@ addEventListener("DOMContentLoaded", () => {
     cursor.style.top = cursorY + "px";
 
     requestAnimationFrame(animateCursor);
+  
   }
 
   animateCursor();
