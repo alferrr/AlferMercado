@@ -199,6 +199,7 @@ body {
   padding: 50px 0 20px;
   background: #000;
   color: white;
+  overflow-x: hidden !important; 
 
   main {
     border-radius: 50px;
